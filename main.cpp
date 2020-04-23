@@ -13,7 +13,7 @@ cout << "Press 1 to Rectangle  : "<<endl;
 cout << "Press 2 to Circle : "<<endl;
 cout << "Press 3 to Triangle : "<<endl;
 cout << "Press 4 to exit :"<<endl;
-cout << "Step : ";
+cout << "Value : ";
 cin >> l;
 switch(l)
 {
