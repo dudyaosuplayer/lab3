@@ -6,7 +6,7 @@
 using namespace std;
 int main()
 {
-int val_a, val_b,val_c, val_r, l;
+int val_a, val_b, val_c, val_r, l;
 while (1)
 {
 cout << "Press 1 to Rectangle  : "<<endl;
