@@ -6,8 +6,6 @@ Circle::Circle(float val_r) :  r(val_r)
 while (r < 0)
 {
 this-> r = 0;
-cout << "Input correct value of radius : ";
-cin >> r;
 this-> r = r;
 }
 }
