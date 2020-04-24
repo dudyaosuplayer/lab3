@@ -33,12 +33,10 @@ float Triangle::square() const
 {
 float p;
 p = (a + b + c)*0.5;
-cout << "square = ";
 return sqrt(p * (p - a) * (p - b) * (p - c));
 }
 float Triangle::perimeter() const
 {
-cout << "perimeter = ";
 return a + b + c;
 }
 bool Triangle::SetA (float val_a)
