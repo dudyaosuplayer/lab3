@@ -6,22 +6,16 @@ Triangle::Triangle(float val_a, float val_b, float val_c) : a(val_a), b(val_b), 
 while (a < 0)
 {
 this-> a = 0;
-cout << "Input correct value of first side : ";
-cin >> a;
 this-> a = a;
 }
 while (b < 0)
 {
 this-> b = 0;
-cout << "Input correct value of second side : ";
-cin >> b;
 this-> b = b;
 }
 while (c < 0)
 {
 this-> c = 0;
-cout << "Input correct value of third side : ";
-cin >> c;
 this-> c = c;
 }
 }
