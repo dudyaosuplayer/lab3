@@ -3,20 +3,17 @@
 Triangle::Triangle() : Figure(), a(0),b(0),c(0) {}
 Triangle::Triangle(float val_a, float val_b, float val_c) : a(val_a), b(val_b), c(val_c) 
 {
-while (a < 0)
+if (a < 0)
 {
 this-> a = 0;
-this-> a = a;
 }
-while (b < 0)
+if (b < 0)
 {
 this-> b = 0;
-this-> b = b;
 }
-while (c < 0)
+if (c < 0)
 {
 this-> c = 0;
-this-> c = c;
 }
 }
 Triangle::Triangle(const Triangle &obj)
