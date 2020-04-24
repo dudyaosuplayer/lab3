@@ -1,7 +1,23 @@
 #include "RecTangle.h"
 
 RecTangle::RecTangle() : Figure(), a(0), b(0) {}
-RecTangle::RecTangle(float val_a, float val_b) : a(val_a), b(val_b) {}
+RecTangle::RecTangle(float val_a, float val_b) : a(val_a), b(val_b) 
+{
+while (a < 0)
+{
+this-> a = 0;
+cout << "Input correct value of length : ";
+cin >> a;
+this-> a = a;
+}
+while (b < 0)
+{
+this-> b = 0;
+cout << "Input correct value of width : ";
+cin >> b;
+this-> b = b;
+}
+}
 RecTangle::RecTangle(const RecTangle &obj)
 {
 a = obj.a;
