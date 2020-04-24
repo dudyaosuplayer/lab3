@@ -3,10 +3,9 @@
 Circle::Circle() : Figure(), r(0){}
 Circle::Circle(float val_r) :  r(val_r)
 {
-while (r < 0)
+if (r < 0)
 {
 this-> r = 0;
-this-> r = r;
 }
 }
 Circle::Circle(const Circle &obj) {
