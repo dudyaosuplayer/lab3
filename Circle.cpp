@@ -19,12 +19,10 @@ cout << "r = " << r << "; ";
 }
 float Circle::square() const
 {
-cout << "square = ";
 return 3.14 * r * r;
 }
 float Circle::perimeter() const
 {
-cout << "perimeter = ";
 return 3.14 * r * 2;
 }
 bool Circle::SetR (float val_r)
