@@ -3,15 +3,13 @@
 RecTangle::RecTangle() : Figure(), a(0), b(0) {}
 RecTangle::RecTangle(float val_a, float val_b) : a(val_a), b(val_b) 
 {
-while (a < 0)
+if (a < 0)
 {
 this-> a = 0;
-this-> a = a;
 }
-while (b < 0)
+if (b < 0)
 {
 this-> b = 0;
-this-> b = b;
 }
 }
 RecTangle::RecTangle(const RecTangle &obj)
