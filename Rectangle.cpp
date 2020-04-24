@@ -25,12 +25,10 @@ cout << "a = " << a << "; " << "b = " << b << "; ";
 }
 float RecTangle::square() const
 {
-cout << "square = ";
 return a * b;
 }
 float RecTangle::perimeter() const
 {
-cout << "perimeter = ";
 return 2 * (a + b);
 }
 
