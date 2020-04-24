@@ -1,7 +1,16 @@
 #include "Circle.h"
 
 Circle::Circle() : Figure(), r(0){}
-Circle::Circle(float val_r) :  r(val_r){}
+Circle::Circle(float val_r) :  r(val_r)
+{
+while (r < 0)
+{
+this-> r = 0;
+cout << "Input correct value of radius : ";
+cin >> r;
+this-> r = r;
+}
+}
 Circle::Circle(const Circle &obj) {
 	r = obj.r;
 }
